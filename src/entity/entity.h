@@ -16,9 +16,10 @@ class Entity {
         
         void animate(std::string animationIdentifier);
         Entity(
-            std::pair<int, int> pos = {0, 0}, 
-            bool visibility = true
+            std::pair<int, int> pos, 
+            bool visibility,
+            double initHealth
         )
-         : position(pos), isVisible(visibility) {};
+         : position{pos}, isVisible{visibility}, health{initHealth} {};
 };        
 #endif
