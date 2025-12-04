@@ -9,8 +9,6 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 # Add source files
 set(SOURCES
     src/main.cpp
-    src/entity.h
-    src/character.h
     external/glad/src/glad.c
 )
 
